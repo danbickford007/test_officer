@@ -5,6 +5,8 @@ Upon such action, either the saved file is run against rspec or the project is s
 spec file.  For example, the file user.rb was edited, the file user_spec.rb will then be run.  If no file
 can be found to run against, the full test suite will be run.
 
+Note:  Please ensure all specs are within your spec directory at the root of the project
+
 ## Installation
 
 Add this line to your application's Gemfile:
