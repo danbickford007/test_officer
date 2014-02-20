@@ -17,13 +17,13 @@ class Dispatch
         run @file, "running #{@file}"
       else
         if found = alternative_file(@file)
-          run found, "alternative find, running #{@file}"
+          run found, "alternative find, running"
         else
           run 'spec', 'could not find file, running full suite ... '
         end
       end
     rescue => e
-      run 'spec', "could not find file, running full suite ... #{e}"
+      run 'spec', "could not find file due to errors, running full suite ... ERROR: #{e}"
     end
   end
 
