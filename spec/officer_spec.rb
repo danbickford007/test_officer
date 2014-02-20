@@ -6,6 +6,8 @@ describe Officer do
 
     before(:all) do
       @officer = Officer.new
+      FSSM = -> (){}
+      FSSM.stub(:monitor)
     end
 
 
