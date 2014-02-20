@@ -6,13 +6,11 @@ describe Officer do
 
     before(:all) do
       @officer = Officer.new
-      FSSM = -> (){}
-      FSSM.stub(:monitor)
     end
 
-
     it 'should return null' do
-      expect (@officer.on_duty.should).to equal nil
+      FSSM.should_receive(:monitor)
+      @officer.on_duty
     end
   end
 
