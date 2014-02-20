@@ -7,5 +7,6 @@ ARGV.each do |arg|
   p arg
 end
 
+print 'on patrol ... '
 officer = Officer.new
 officer.on_duty

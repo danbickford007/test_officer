@@ -1,5 +1,7 @@
 # TestOfficer
 
+[![Build Status](https://secure.travis-ci.org/danbickford007/test_officer.png)](http://travis-ci.org/danbickford007/test_officer?branch=master)
+
 This gem will run your specs for you automatically by watching the project for creates, saves and deletes.  
 Upon such action, either the saved file is run against rspec or the project is searched for the specified
 spec file.  For example, the file user.rb was edited, the file user_spec.rb will then be run.  If no file
@@ -24,9 +26,9 @@ Or install it yourself as:
 ## Usage
 
 in terminal
-  test_officer
+    test_officer
   or
-  patrol
+    patrol
 
 ## Contributing!
 
