@@ -26,9 +26,12 @@ Or install it yourself as:
 ## Usage
 
 in terminal
-    test_officer
+
+    $ test_officer
+
   or
-    patrol
+
+    $ patrol
 
 ## Contributing!
 
