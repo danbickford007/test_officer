@@ -1,6 +1,9 @@
 # TestOfficer
 
-TODO: Write a gem description
+This gem will run your specs for you automatically by watching the project for creates, saves and deletes.  
+Upon such action, either the saved file is run against rspec or the project is searched for the specified
+spec file.  For example, the file user.rb was edited, the file user_spec.rb will then be run.  If no file
+can be found to run against, the full test suite will be run.
 
 ## Installation
 
@@ -18,7 +21,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+in terminal
+  test_officer
+  or
+  patrol
 
 ## Contributing
 

@@ -1,0 +1,11 @@
+#!/usr/bin/env ruby                                                                  
+$LOAD_PATH << File.expand_path('../../lib', __FILE__)                                
+                                                                                     
+require 'test_officer' 
+
+ARGV.each do |arg|
+  p arg
+end
+
+officer = Officer.new
+officer.on_duty
